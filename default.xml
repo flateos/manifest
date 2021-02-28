@@ -10,6 +10,7 @@
   <project name="space" path="space" remote="unave"/>
   <project name="vendor" path="vendor" remote="unave">
     <linkfile src="presets/calamares" dest="core/airootfs/etc/calamares" />
+    <linkfile src="backgrounds" dest="core/airootfs/usr/share/backgrounds/unave" />
     <linkfile src="Makefile" dest="Makefile" />
   </project>
 </manifest>
