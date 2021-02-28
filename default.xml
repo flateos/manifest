@@ -7,6 +7,7 @@
           fetch="ssh://git@github.com/unave" />
 
   <project name="core" path="core" remote="unave"/>
+  <project name="space" path="space" remote="unave"/>
   <project name="vendor" path="vendor" remote="unave">
     <linkfile src="presets/calamares" dest="core/airootfs/etc/calamares" />
     <linkfile src="Makefile" dest="Makefile" />
