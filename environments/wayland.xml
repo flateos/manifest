@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote name="unave"
+          remote="unave"
+          revision="main"
+          fetch="ssh://git@github.com/unave" />
+
+  <project name="wms" path="core/wms" remote="unave" >
+    <linkfile src="wayland" dest="core/etc/skel/.config" />
+  </project>
+</manifest>

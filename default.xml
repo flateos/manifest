@@ -6,11 +6,12 @@
           revision="main"
           fetch="ssh://git@github.com/unave" />
 
-  <project name="core" path="core" remote="unave"/>
+  <project name="environment" path="." remote="unave" />
+  <project name="platform" path="platform" remote="unave" />
   <project name="space" path="space" remote="unave"/>
-  <project name="vendor" path="core/airootfs/vendor" remote="unave">
-    <linkfile src="backgrounds" dest="core/airootfs/usr/share/backgrounds/unave" />
-    <linkfile src="presets/calamares" dest="core/airootfs/etc/calamares" />
-    <linkfile src="Makefile" dest="Makefile" />
+  <project name="core" path="core" remote="unave">
+    <linkfile src="." dest="platform/airootfs" />
   </project>
+
+  <include name="environments/wayland.xml" />
 </manifest>
