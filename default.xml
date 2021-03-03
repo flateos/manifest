@@ -6,7 +6,6 @@
           revision="main"
           fetch="ssh://git@github.com/unaveos" />
 
-  <project name="environment" path="." remote="unave" />
   <project name="platform" path="platform" remote="unave" />
   <project name="space" path="space" remote="unave"/>
   <project name="core" path="core" remote="unave">
