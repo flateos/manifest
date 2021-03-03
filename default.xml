@@ -4,7 +4,7 @@
   <remote name="unave"
           remote="unave"
           revision="main"
-          fetch="ssh://git@github.com/unave" />
+          fetch="ssh://git@github.com/unaveos" />
 
   <project name="environment" path="." remote="unave" />
   <project name="platform" path="platform" remote="unave" />

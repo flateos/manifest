@@ -4,7 +4,7 @@
   <remote name="unave"
           remote="unave"
           revision="main"
-          fetch="ssh://git@github.com/unave" />
+          fetch="ssh://git@github.com/unaveos" />
 
   <project name="wms" path="core/wms" remote="unave" >
     <linkfile src="wayland" dest="core/etc/skel/.config" />
