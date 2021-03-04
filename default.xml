@@ -8,6 +8,8 @@
 
   <project name="platform" path="platform" remote="unave" />
   <project name="space" path="space" remote="unave"/>
+  <project name="naven" path="naven" remote="unave"/>
+  <project name="site" path="site" remote="unave"/>
   <project name="core" path="core" remote="unave">
     <linkfile src="." dest="platform/airootfs" />
   </project>
