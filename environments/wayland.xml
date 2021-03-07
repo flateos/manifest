@@ -6,7 +6,7 @@
           revision="main"
           fetch="ssh://git@github.com/unaveos" />
 
-  <project name="environments" path="core/env" remote="unave" >
+  <project name="environ" path="core/env" remote="unave" >
     <linkfile src="wayland" dest="core/etc/skel/.config" />
   </project>
 </manifest>

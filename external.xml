@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote name="ohmyzsh"
+          remote="ohmyzsh"
+          revision="master"
+          fetch="https://github.com/ohmyzsh" />
+
+  <project name="ohmyzsh" path="core/etc/skel/.oh-my-zsh" remote="ohmyzsh"/>
+</manifest>

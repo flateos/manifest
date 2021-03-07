@@ -15,4 +15,5 @@
   </project>
 
   <include name="environments/wayland.xml" />
+  <include name="external.xml" />
 </manifest>
