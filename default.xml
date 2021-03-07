@@ -10,9 +10,7 @@
   <project name="space" path="space" remote="unave"/>
   <project name="naven" path="naven" remote="unave"/>
   <project name="site" path="site" remote="unave"/>
-  <project name="core" path="core" remote="unave">
-    <linkfile src="." dest="platform/airootfs" />
-  </project>
+  <project name="core" path="platform/airootfs" remote="unave" />
 
   <include name="environments/wayland.xml" />
   <include name="external.xml" />
