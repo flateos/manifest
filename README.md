@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="350" alt="manifest logo" src="brand.svg"/>
+  <img alt="manifest logo" src="brand.svg"/>
 </div>
 
 <h3 align="center"> Manifest for source code sync. </h3>
