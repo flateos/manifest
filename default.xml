@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-  <remote name="unave"
-          remote="unave"
+  <remote name="flateos"
+          remote="flateos"
           revision="main"
-          fetch="ssh://git@github.com/unaveos" />
+          fetch="ssh://git@github.com/flateos" />
 
-  <project name="platform" path="platform" remote="unave" />
-  <project name="space" path="space" remote="unave"/>
-  <project name="naven" path="naven" remote="unave"/>
-  <project name="orion" path="orion" remote="unave"/>
-  <project name="site" path="site" remote="unave"/>
-  <project name="core" path="platform/airootfs" remote="unave" />
+  <project name="platform" path="platform" remote="flateos" />
+  <project name="space" path="space" remote="flateos"/>
+  <project name="naven" path="naven" remote="flateos"/>
+  <project name="orion" path="orion" remote="flateos"/>
+  <project name="site" path="site" remote="flateos"/>
+  <project name="vendor" path="platform/airootfs" remote="flateos" />
 
   <include name="environments/wayland.xml" />
   <include name="external.xml" />

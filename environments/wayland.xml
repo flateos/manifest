@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-  <remote name="unave"
-          remote="unave"
+  <remote name="flateos"
+          remote="flateos"
           revision="main"
-          fetch="ssh://git@github.com/unaveos" />
+          fetch="ssh://git@github.com/flateos" />
 
-  <project name="environ" path="platform/airootfs/environ" remote="unave" >
+  <project name="environ" path="platform/airootfs/environ" remote="flateos" >
     <linkfile src="wayland" dest="platform/airootfs/etc/skel/.config" />
   </project>
 </manifest>

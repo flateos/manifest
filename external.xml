@@ -6,5 +6,5 @@
           revision="master"
           fetch="https://github.com/ohmyzsh" />
 
-  <project name="ohmyzsh" path="core/etc/skel/.oh-my-zsh" remote="ohmyzsh"/>
+  <project name="ohmyzsh" path="platform/airootfs/etc/skel/.oh-my-zsh" remote="ohmyzsh"/>
 </manifest>
