@@ -11,7 +11,7 @@
   <project name="naven" path="naven" remote="flateos"/>
   <project name="orion" path="orion" remote="flateos"/>
   <project name="site" path="site" remote="flateos"/>
-  <project name="vendor" path="platform/airootfs" remote="flateos" />
+  <project name="core" path="platform/airootfs" remote="flateos" />
 
   <include name="environments/wayland.xml" />
   <include name="external.xml" />
