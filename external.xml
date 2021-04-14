@@ -6,5 +6,11 @@
           revision="master"
           fetch="https://github.com/ohmyzsh" />
 
+  <remote name="zinit"
+          remote="zinit"
+          revision="master"
+          fetch="https://github.com/zdharma" />
+
   <project name="ohmyzsh" path="platform/airootfs/etc/skel/.oh-my-zsh" remote="ohmyzsh"/>
+  <project name="zinit" path="platform/airootfs/etc/skel/.zinit/bin" remote="zinit"/>
 </manifest>
