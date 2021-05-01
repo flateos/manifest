@@ -14,5 +14,4 @@
   <project name="core" path="platform/airootfs" remote="flateos" />
 
   <include name="environments/wayland.xml" />
-  <include name="external.xml" />
 </manifest>
