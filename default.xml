@@ -6,11 +6,11 @@
           revision="main"
           fetch="ssh://git@github.com/flateos" />
 
+  <project name="calamares" path="calamares" remote="flateos"/>
   <project name="platform" path="platform" remote="flateos" />
   <project name="environ" path="environ" remote="flateos"/>
   <project name="space" path="space" remote="flateos"/>
-  <project name="naven" path="naven" remote="flateos"/>
-  <project name="orion" path="orion" remote="flateos"/>
+  <project name="sddm" path="sddm" remote="flateos"/>
   <project name="site" path="site" remote="flateos"/>
   <project name="core" path="platform/airootfs" remote="flateos" />
 </manifest>
