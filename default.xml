@@ -9,6 +9,7 @@
   <project name="calamares" path="calamares" remote="flateos"/>
   <project name="platform" path="platform" remote="flateos" />
   <project name="notes" path="notes" remote="flateos" />
+  <project name="fctl" path="fctl" remote="flateos" />
   <project name="flate" path="flate" remote="flateos" />
   <project name="environ" path="environ" remote="flateos"/>
   <project name="space" path="space" remote="flateos"/>
