@@ -6,14 +6,23 @@
           revision="main"
           fetch="ssh://git@github.com/flateos" />
 
-  <project name="calamares" path="calamares" remote="flateos"/>
-  <project name="platform" path="platform" remote="flateos" />
-  <project name="notes" path="notes" remote="flateos" />
-  <project name="fctl" path="fctl" remote="flateos" />
-  <project name="flate" path="flate" remote="flateos" />
-  <project name="environ" path="environ" remote="flateos"/>
-  <project name="space" path="space" remote="flateos"/>
-  <project name="sddm" path="sddm" remote="flateos"/>
-  <project name="site" path="site" remote="flateos"/>
-  <project name="core" path="platform/airootfs" remote="flateos" />
+  <!-- I N F R A -->
+  <project path="infra" name="infra" remote="flateos"/>
+
+  <!-- C O R E -->
+  <project path="core/platform" name="platform" remote="flateos" />
+  <project path="core/flate" name="flate" remote="flateos" />
+  <project path="core/space" name="space" remote="flateos"/>
+
+  <!-- P A C K A G E S -->
+  <project path="pkgs/calamares" name="calamares" remote="flateos"/>
+  <project path="pkgs/fctl" name="fctl" remote="flateos" />
+  <project path="pkgs/environ" name="environ" remote="flateos"/>
+  <project path="pkgs/sddm" name="sddm" remote="flateos"/>
+
+  <!-- W E B -->
+  <project path="web/site" name="site" remote="flateos"/>
+
+  <!-- D O C U M E N T A T I O N -->
+  <project path="docs/notes" name="notes" remote="flateos" />
 </manifest>
