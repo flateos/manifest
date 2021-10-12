@@ -6,9 +6,6 @@
           revision="main"
           fetch="ssh://git@github.com/flateos" />
 
-  <!-- I N F R A -->
-  <project path="infra" name="infra" remote="flateos"/>
-
   <!-- C O R E -->
   <project path="core/platform" name="platform" remote="flateos" />
   <project path="core/flate" name="flate" remote="flateos" />
